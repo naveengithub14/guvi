@@ -1,2 +1,2 @@
-for x in range(12):
-    print "hello"
+for x in range(10):
+	print "Hello"
