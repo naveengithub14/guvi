@@ -1,5 +1,7 @@
-num=int(raw_input())
-if((num % 2)==0):
-	print(str(num)+"is positive number")
+num = "Enter a number: "
+if num > 0:
+	print("positive")
+elif num == 0:
+	print("zero")
 else:
-	print(str(num)+"is  negitive number")
+	print("negative")
