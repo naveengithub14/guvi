@@ -1,5 +1,7 @@
-ch=input("enter a character: ")
-if((ch>='a' and ch<='z') or (ch>='A' and ch<='Z')):
-	print(ch,"alphabet")
+ch = raw_input()
+if(ch>='a' and ch<='z'):
+	print("alphabet")
+elif(ch>='A' and ch<='Z'):
+	print("alphabet")
 else:
-	print(ch,"no")
+	print("no")
