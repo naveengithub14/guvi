@@ -1,7 +1,10 @@
-ch = 'a'
-
-if(ch=='A' or ch=='a' or ch=='E' or ch =='e' or ch=='I'
- or ch=='i' or ch=='O' or ch=='o' or ch=='U' or ch=='u'):
-    print(ch, "is a Vowel")
+str = raw_input()
+ch = ['a','e','i','o','u','A','E','I','O','U']
+list = ['b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z','B','C','D','F','G','H','J','K','L','M','N','P','Q','R','S','T','V','W','X','Y','Z']
+if (str in ch):
+	print("Vowel")
+elif (str in list):
+	print("Consonant")
 else:
-    print(ch, "is a Consonant")
+	print("invalid")
+
