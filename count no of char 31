@@ -1,0 +1,6 @@
+print("input:")
+char=input().split(" ")
+sum = 0
+for i in char:
+	sum = sum+len(i)
+	print(sum)
