@@ -5,5 +5,5 @@ for i in range(0,n):
 	if(i<n-1):
 		k=' '
 	else:
-		k=' '
+		k=''
 	print(a[i],end=k)
